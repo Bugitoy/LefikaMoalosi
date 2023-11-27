@@ -387,92 +387,68 @@ nav .fa-solid{
     display: none;
 }
 
-/* Add this at the end of your existing CSS */
-
-/* Media query for screens with a maximum width of 600px */
 @media only screen and (max-width: 600px){
-    .social-icons{
-        margin-top: 20px; /* Adjust margin for spacing */
-        text-align: center;
+    #header{
+        background-image: url(images/final23.PNG);
     }
-
-    .social-icons a{
-        margin: 0 15px; /* Adjust margin for spacing */
-    }
-    nav ul{
-        right: -200px; /* Initially hide the side menu */
-    }
-
-    nav ul.show-menu{
-        right: 0; /* Show the side menu when it has the "show-menu" class */
-    }
-
-    nav ul li{
-        text-align: center;
-        margin: 15px 0;
-    }
-
     .header-text{
-        margin-top: 30%;
+        margin-top: 100%;
         font-size: 16px;
     }
-
     .header-text h1{
         font-size: 30px;
     }
-
+    nav .fa-solid{
+        display: block;
+        font-size: 25px;
+    }
+    nav ul{
+        background: #007FFF;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+        transition: right 0.5s;
+    }
+    nav ul li{
+        display: block;
+        margin:25px;
+    }
+    nav ul .fa-solid{
+        position: absolute;
+        top:25px;
+        left:25px;
+        cursor:pointer;
+    }
+    .sub-title{
+        font-size:40px;
+    }
     .about-col-1, .about-col-2{
         flex-basis: 100%;
     }
-
-    .about-col-1 img{
-        margin-top: 20px;
+    .about-col-1{
+        margin-bottom: 30px;
     }
-
     .about-col-2{
         font-size: 14px;
     }
-
     .tab-links{
         font-size: 16px;
         margin-right: 20px;
     }
-
-    .tab-titles{
-        margin: 20px 0;
-    }
-
-    #full-body-pic{
-        margin-top: 20px;
-        margin-left: 0;
-    }
-
-    #portfolio .work-list{
-        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        grid-gap: 20px;
-    }
-
-    .btn{
-        margin: 20px auto;
-    }
-
     .contact-left, .contact-right{
         flex-basis: 100%;
     }
-
-    .social-icons a{
-        margin: 0 15px;
-    }
-
-    form .btn2{
-        margin-top: 20px;
-    }
-
     .copyright{
         font-size: 14px;
     }
-
-    #msg{
-        margin-top: -20px;
-    }
+ 
+}
+#msg{
+    color:#61b752;
+    margin-top: -40px;
+    display: block;
 }
