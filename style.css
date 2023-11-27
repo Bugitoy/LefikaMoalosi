@@ -457,7 +457,12 @@ nav .fa-solid{
     }
     .sub-title{
         font-size:40px;
-        margin-left: 10vh;
+    }
+    #my-services-sub-title{
+        margin-left: 9vh;
+    }
+    #hobbies-sub-title{
+        margin-left: 14vh;
     }
     .work{
         margin-left: 5vh;
@@ -502,7 +507,7 @@ nav .fa-solid{
  #contact-me-section{
     text-align: center;
     margin-top: -5vh;
-    margin-left: 2vh;
+    margin-left: 3vh;
  }
  .fa-brands{
     margin-left: -3vh;
