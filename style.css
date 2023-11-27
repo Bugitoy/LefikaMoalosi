@@ -453,9 +453,11 @@ nav .fa-solid{
     }
     #services{
         margin-top: -10vh;
+        margin-left: 3vh;
     }
     .sub-title{
         font-size:40px;
+        margin-left: 10vh;
     }
     .work{
         margin-left: 5vh;
@@ -500,7 +502,7 @@ nav .fa-solid{
  #contact-me-section{
     text-align: center;
     margin-top: -5vh;
-    margin-left: 10vh;
+    margin-left: 2vh;
  }
  .fa-brands{
     margin-left: -3vh;
@@ -510,13 +512,13 @@ nav .fa-solid{
 }
 .social-icons{
     padding-left: 4vh;
-    margin-left: 10px;
+    margin-left: 6vh;
 }
 #download-cv-button{
     margin-left: 10vh;
 }
 #submit-button{
-    margin-left: 5vh;
+    margin-left: 6.5vh;
 }
 }
 #msg{
