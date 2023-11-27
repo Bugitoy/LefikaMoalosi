@@ -402,11 +402,15 @@ nav .fa-solid{
         padding: 0;
         background: #080808;
         color: #fff;
-        width: 50vh;
+        width: 40vh;
     }
     #header{
         background-image: url(images/phone-bckgrnd.PNG);
-        width: 65vh;
+        width: 60vh;
+    }
+    #bar-icon{
+        margin-left: 38vh;
+        margin-top: -6vh;
     }
     #full-body-pic{
         width: 45vh;
