@@ -409,7 +409,7 @@ nav .fa-solid{
         width: 60vh;
     }
     #bar-icon{
-        margin-left: 38vh;
+        margin-left: 40vh;
         margin-top: -5.5vh;
     }
     #full-body-pic{
@@ -435,7 +435,7 @@ nav .fa-solid{
         position: fixed;
         top: 0;
         right: 0px;
-        width: 200px;
+        width: 180px;
         height: 89.5vh;
         padding-top: 50px;
         z-index: 2;
