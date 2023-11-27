@@ -399,13 +399,14 @@ nav .fa-solid{
     }
     body{
         margin: 0;
+        padding: 0;
         background: #080808;
         color: #fff;
-        width: 30vh;
+        width: 50vh;
     }
     #header{
         background-image: url(images/phone-bckgrnd.PNG);
-        width: 55vh;
+        width: 60vh;
     }
     #full-body-pic{
         width: 45vh;
@@ -430,8 +431,8 @@ nav .fa-solid{
         position: fixed;
         top: 0;
         right: 0;
-        width: 150px;
-        height: 40vh;
+        width: 200px;
+        height: 60vh;
         padding-top: 50px;
         z-index: 2;
         transition: right 0.5s;
@@ -463,17 +464,20 @@ nav .fa-solid{
     }
     .tab-links{
         font-size: 16px;
-        margin-right: 20px;
+        margin-right: 25px;
+        margin-left: -20px;
     }
     .contact-left, .contact-right{
         flex-basis: 100%;
+        width: 300px;
     }
     .copyright{
         font-size: 14px;
-        width: 52vh;
+        width: 60vh;
     }
     #about-me-paragragh{
         margin-bottom: -5vh;
+        width: 350px;
     }
  .container{
     width: 50vh;
@@ -488,7 +492,7 @@ nav .fa-solid{
     margin-left: 11vh;
 }
 .social-icons{
-    margin-left: 4vh;
+    margin-left: 35px;
 }
 #download-cv-button{
     margin-left: 10vh;
