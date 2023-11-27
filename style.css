@@ -388,8 +388,30 @@ nav .fa-solid{
 }
 
 @media only screen and (max-width: 600px){
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+        box-sizing: border-box;
+    }
+    html{
+        scroll-behavior: smooth;
+    }
+    body{
+        margin: 0;
+        background: #080808;
+        color: #fff;
+        width: 30vh;
+    }
     #header{
         background-image: url(images/phone-bckgrnd.PNG);
+        width: 55vh;
+    }
+    #full-body-pic{
+        width: 45vh;
+        margin-left: 0px;
+        margin-top: 0vh;
+
     }
     .header-text{
         margin-top: 100%;
@@ -402,13 +424,14 @@ nav .fa-solid{
         display: block;
         font-size: 25px;
     }
+
     nav ul{
         background: #007FFF;
         position: fixed;
         top: 0;
         right: 0;
-        width: 200px;
-        height: 100vh;
+        width: 150px;
+        height: 40vh;
         padding-top: 50px;
         z-index: 2;
         transition: right 0.5s;
@@ -422,6 +445,9 @@ nav .fa-solid{
         top:25px;
         left:25px;
         cursor:pointer;
+    }
+    #services{
+        margin-top: -10vh;
     }
     .sub-title{
         font-size:40px;
@@ -444,8 +470,32 @@ nav .fa-solid{
     }
     .copyright{
         font-size: 14px;
+        width: 52vh;
     }
- 
+    #about-me-paragragh{
+        margin-bottom: -5vh;
+    }
+ .container{
+    width: 50vh;
+    margin-right: 0vh;
+    margin-left: 0vh;
+ }
+ #contact-me-section{
+    text-align: center;
+    margin-top: -5vh;
+ }
+#socials{
+    margin-left: 11vh;
+}
+.social-icons{
+    margin-left: 4vh;
+}
+#download-cv-button{
+    margin-left: 10vh;
+}
+#submit-button{
+    margin-left: 11.5vh;
+}
 }
 #msg{
     color:#61b752;
