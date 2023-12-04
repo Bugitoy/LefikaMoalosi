@@ -24,7 +24,7 @@
             <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
             <li><a href ="#about">About</a></li>
             <li><a href ="#services">Services</a></li>
-            <li><a href ="#portfolio">Hobbies</a></li>
+            <li><a href ="#hobbies">Hobbies</a></li>
             <li><a href ="#contact">Contact</a></li>
             <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
         </ul>
@@ -217,11 +217,11 @@
     </div>
 </div>   
 <!----------------------------------Hobbies--------------------------------->
-<div id="portfolio">
+<div id="hobbies">
     <div class="container">
         <h1 class="sub-title" id="hobbies-sub-title">Hobbies</h1>
-        <div class="work-list">
-            <div class="work">
+        <div class="hobbies-list">
+            <div class="activities">
                 <img src="images/cute-raccoon-rides-a-bicycle-perfect-composition-beautiful-detailed-intricate-insanely-detailed-oc-432229807.png">
                 <div class="layer">
                     <h3>Cycling</h3>
@@ -230,7 +230,7 @@
                             <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
             </div>
-            <div class="work">
+            <div class="activities">
                 <img src="images/ultra-detailed-hyperrealitic-3d-award-winning-raytracing-octane-render-of-magnus-carlsen-playing--60320576.png">
                 <div class="layer">
                     <h3>Playing chess</h3>
@@ -239,7 +239,7 @@
                             <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
                 </div>
             </div>
-            <div class="work">
+            <div class="activities">
                 <img src="images/a-young-man-using-a-laptop-in-a-slum-trending-on-artstation-sharp-focus-studio-photo-intricate--997219871.png">
                 <div class="layer">
                     <h3>Coding</h3>
@@ -282,54 +282,6 @@
             <p>Copyright Lefika <i class="fa-solid fa-heart"></i> Made with passion</p>
         </div>
 </div>
-
-<script>
-
-    var tablinks = document.getElementsByClassName("tab-links");
-    var tabcontents = document.getElementsByClassName("tab-contents");
-
-    function opentab(tabname){
-        for(tablink of tablinks){
-            tablink.classList.remove("active-link");
-        }
-        for(tabcontent of tabcontents){
-            tabcontent.classList.remove("active-tab");
-        }
-        event.currentTarget.classList.add("active-link");
-        document.getElementById(tabname).classList.add("active-tab");
-    }
-</script>
-<script>
-    var sidemeu = document.getElementById("sidemenu");
-    function openmenu(){
-        sidemeu.style.right = "0";
-    }
-    function closemenu(){
-        sidemeu.style.right = "0";
-    }
-    function closemenu(){
-        sidemeu.style.right = "-200px";
-    }
-</script>
-
-<script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbxEB065rjsfv5X14AwpKa8dqV9-8vD3ufh-KxBcOR4b1dtIiV4BO7zlw5OIu5_VIX-l/exec'
-    const form = document.forms['submit-to-google-sheet']
-  const msg = document.getElementById("msg")
-
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-        .then(response => {
-            msg.innerHTML = "Message sent successfully"
-            setTimeout(function(){
-                msg.innerHTML = ""
-            }, 5000)
-            form.reset()
-        })
-        .catch(error => console.error('Error!', error.message))
-    })
-  </script>
-
+<script src="/script.js"></script>
 </body>
 </html>

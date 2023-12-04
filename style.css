@@ -233,22 +233,22 @@ font-weight:bold;
     background:#007FFF;
     transform: translateY(-10px);
 }
-/*--------------------portfolio---------------------*/
-#portfolio{
+/*--------------------hobbies---------------------*/
+#hobbies{
     padding:50px 0;
 }
-.work-list{
+.hobbies-list{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
     grid-gap:40px;
     margin-top:50px;
 }
-.work{
+.activities{
     border-radius:10px;
     position: relative;
     overflow:hidden;
 }
-.work img{
+.activities img{
     width:100%;
     border-radius:10px;
     display:block;
@@ -288,10 +288,10 @@ font-weight:bold;
     border-radius:50%;
     text-align:center;
 }
-.work:hover img{
+.activities:hover img{
     transform:scale(1.1);
 }
-.work:hover .layer{
+.activities:hover .layer{
     height:100%;
 }
 .btn{
@@ -464,7 +464,7 @@ nav .fa-solid{
     #hobbies-sub-title{
         margin-left: 14vh;
     }
-    .work{
+    .activities{
         margin-left: 5vh;
     }
     .btn{
