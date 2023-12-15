@@ -19,7 +19,7 @@ function closemenu(){
     sidemeu.style.right = "0";
 }
 function closemenu(){
-    sidemeu.style.right = "-200px";
+    sidemeu.style.right = "-229px";
 }
 const scriptURL = 'https://script.google.com/macros/s/AKfycbxEB065rjsfv5X14AwpKa8dqV9-8vD3ufh-KxBcOR4b1dtIiV4BO7zlw5OIu5_VIX-l/exec'
     const form = document.forms['submit-to-google-sheet']
