@@ -414,7 +414,7 @@ nav .fa-solid{
     }
     #full-body-pic{
         width: 45vh;
-        margin-left: 0px;
+        margin-left: 7%;
         margin-top: 0vh;
 
     }
@@ -436,7 +436,7 @@ nav .fa-solid{
         top: 0;
         right: 0px;
         width: 180px;
-        height: 89.5vh;
+        height: 65.3%;
         padding-top: 50px;
         z-index: 2;
         transition: right 0.5s;
@@ -468,7 +468,8 @@ nav .fa-solid{
         margin-left: 5vh;
     }
     .btn{
-        margin-left: 12vh;
+        margin-top: 25%;
+        margin-left: 38%;
     }
     .about-col-1, .about-col-2{
         flex-basis: 100%;
@@ -482,21 +483,58 @@ nav .fa-solid{
     .tab-links{
         font-size: 16px;
         margin-right: 35px;
-        margin-left: -20px;
+        margin-left: -5px;
+    }
+    #tennis-awards{
+        padding-left: 10%;
+    }
+    #karate{
+        width: 70%;
+        margin-left: 5vh;
+    }
+    #athletics{
+        margin-left: -5vh;
+    }
+    #experience{
+        width: 90%;
+        margin-left: 2vh;
+    }
+    #education{
+        width: 90%;
+        margin-left: 2%;
+    }
+    .services-list{
+        margin-left: 7%;
+    }
+    #hobbies-sub-title{
+        margin-left: 40%;
+    }
+    .hobbies-list{
+        margin-left: 11%;
+    }
+    #contact-me-section{
+        width: 410px;
     }
     .contact-left, .contact-right{
         flex-basis: 100%;
         width: 300px;
     }
     .contact-right{
-        margin-left: 5vh;
+        margin-left: 20%;
     }
     .copyright{
         font-size: 14px;
         width: 60vh;
     }
-    #about-me-paragragh{
+    #about-me-title{
+        margin-top: 1vh;
         margin-bottom: -5vh;
+        margin-left: 7%;
+    }
+    #about-me-paragragh{
+        margin-top: 7vh;
+        margin-bottom: -5vh;
+        margin-left: 7%;
         width: 350px;
     }
  .container{
@@ -513,14 +551,13 @@ nav .fa-solid{
     margin-left: -3vh;
  }
 #socials{
-    margin-left: 11vh;
+    margin-left: 35%;
 }
 .social-icons{
-    padding-left: 4vh;
-    margin-left: 6vh;
+    margin-left: 32.5%;
 }
 #download-cv-button{
-    margin-left: 10vh;
+    margin-left: 37%;
 }
 #submit-button{
     margin-left: 6.5vh;
